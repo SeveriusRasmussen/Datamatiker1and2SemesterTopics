@@ -1,0 +1,38 @@
+//Forklaring:
+Det her viser forskellen på instansmetoder med @Override og statisk metoder (uden @Override)
+    Override:
+        Polymorfisme:
+            @Override gør det muligt at udnytte polymorfisme ("many forms") i objektorienteret programmering.
+            Polymorfisme tillader dig at behandle objekter af forskellige klasser på en ensartet måde via en
+            fælles superklasse eller et interface.
+
+            Når du overstyrer metoder fra en superklasse,
+            kan du ændre adfærden af metoden i underklassen og sikre,
+            at objekter af denne underklasse opfører sig på en bestemt måde.
+
+        Korrekt implementering:
+            @Override hjælper med at sikre, at du faktisk overstyrer en metode fra en superklasse.
+            Hvis du laver en tastefejl i metodens navn eller parameterliste, vil kompilatoren give en fejl,
+            hvilket kan forhindre potentielle bugs.
+
+        Bedre Struktur og Vedligeholdelse:
+            Ved at bruge instansmetoder og @Override kan du opbygge en hierarkisk struktur,
+            der er nemmere at vedligeholde.
+            Du kan ændre adfærden i underklasser uden at ændre grundklassen eller bryde eksisterende kode.
+
+
+    Statiske metoder:
+        Mindre Fleksibilitet:
+            Statiske metoder er bundet til klassen og kan ikke udnytte polymorfisme.
+            Du kan ikke ændre adfærden af en statisk metode baseret på objektets type.
+        Mangel på Polymorfisme:
+            Statiske metoder kan ikke være polymorfe.
+            Du kan ikke opnå det samme niveau af fleksibilitet og udskiftning af adfærd,
+            som du kan med instansmetoder og @Override.
+
+
+//Opsummering:
+Man bruger @Override med instansmetoder, når man ønsker at ændre eller udvide
+funktionaliteten af en metode fra en superklasse i en underklasse.
+Dette giver dig fleksibilitet og muligheden for at udnytte polymorfisme,
+hvilket gør din kode mere modulær og lettere at vedligeholde.

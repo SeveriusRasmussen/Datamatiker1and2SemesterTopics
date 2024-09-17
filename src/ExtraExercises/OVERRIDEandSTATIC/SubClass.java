@@ -1,4 +1,4 @@
-package ExtraExercises.OVERRIDE;
+package ExtraExercises.OVERRIDEandSTATIC;
 
 public class SubClass extends SuperClass {
     // SubClass en statisk metode

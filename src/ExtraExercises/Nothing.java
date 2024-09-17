@@ -1,2 +1,4 @@
-package ExtraExercises;public class Nothing {
+package ExtraExercises;
+
+public class Nothing {
 }

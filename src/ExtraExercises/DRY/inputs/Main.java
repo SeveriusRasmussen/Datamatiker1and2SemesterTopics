@@ -1,2 +1,4 @@
-package ExtraExercises.DRY.inputs;public class Main {
+package ExtraExercises.DRY.inputs;
+
+public class Main {
 }

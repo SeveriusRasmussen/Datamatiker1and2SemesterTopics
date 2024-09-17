@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class DatamatikerLæringsmål {
+public class DatamatikerLæringsmål {
+    /*
+    Vi har Datamatiker læringmål med disse fagene:
+        Programmering
+        Systemudvikling
+        Virksomhedsfag / IT- og forretningsforståelse
+        Teknologi
+     */
 }

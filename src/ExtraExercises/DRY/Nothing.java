@@ -1,2 +1,4 @@
-package ExtraExercises.DRY;public class Nothing {
+package ExtraExercises.DRY;
+
+public class Nothing {
 }
