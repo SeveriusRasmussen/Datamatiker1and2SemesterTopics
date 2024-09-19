@@ -1,15 +1,15 @@
-package Semester1.Gamle1SemesterEmner.Filer;
+package Semester1.Gamle1SemesterEmner.Files;
 
 
 /*
-Filer handler om at man kan læse og skrive til filer.
+Files handler om at man kan læse og skrive til filer.
 Alle filer handler bruger næsten altid Try/Catch for at undgå exception-error.
     Read: Man læse fra en tekstfil vha. Scanner. Se i WriteAndReadFile-mappen.
         F.eks:
             Scanner input = new Scanner(System.in); // Her læser man fra konsollen.
             Scanner input = new Scanner(new File("text.dat")); // Her læser man fra filen.
         Så derfor skal man være opmærksomhed over om man læse fra konsollen eller filen.
-        i Filer-mappen fokuserer man kun Scanner(new File("text.dat"));.
+        i Files-mappen fokuserer man kun Scanner(new File("text.dat"));.
 
     Write: Man skrive til en tekstfil vha. Printstream. Se i WriteAndReadFile-mappen.
 

@@ -1,4 +1,4 @@
-package Semester1.Gamle1SemesterEmner.Filer.CreateAndDeleteFile;
+package Semester1.Gamle1SemesterEmner.Files.CreateAndDeleteFile;
 
 import java.io.File;
 import java.io.IOException;
@@ -42,7 +42,7 @@ public class Main {
     // CREATE FILE her:
     public static void createFile() {
         try {
-            File myObj = new File("src/Semester1/Gamle1SemesterEmner/Filer/tekstFile");
+            File myObj = new File("src/Semester1/Gamle1SemesterEmner/Files/tekstFile");
             if (myObj.createNewFile()) {
                 System.out.println("File created: " + myObj.getName());
             } else {
@@ -56,7 +56,7 @@ public class Main {
 
     // DELETE FILE her:
     public static void deleteFile() {
-        File myObj = new File("src/Semester1/Gamle1SemesterEmner/Filer/tekstFile");
+        File myObj = new File("src/Semester1/Gamle1SemesterEmner/Files/tekstFile");
         if (myObj.delete()) {
             System.out.println("Deleted the file: " + myObj.getName());
         } else {

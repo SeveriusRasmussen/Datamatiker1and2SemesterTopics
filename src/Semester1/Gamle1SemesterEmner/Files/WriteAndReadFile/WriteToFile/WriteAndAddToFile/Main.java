@@ -1,4 +1,4 @@
-package Semester1.Gamle1SemesterEmner.Filer.WriteAndReadFile.WriteToFile.WriteAndAddToFile;
+package Semester1.Gamle1SemesterEmner.Files.WriteAndReadFile.WriteToFile.WriteAndAddToFile;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             // opret FileWriter med append-parameteren sat til true
-            FileWriter myWriter = new FileWriter("src/Semester1/Gamle1SemesterEmner/Filer/tekstFile", true);
+            FileWriter myWriter = new FileWriter("src/Semester1/Gamle1SemesterEmner/Files/tekstFile", true);
             myWriter.write("Appending text to the file.\n"); //Appending is like adding.
             myWriter.close();
             System.out.println("Successfully appended to the file");

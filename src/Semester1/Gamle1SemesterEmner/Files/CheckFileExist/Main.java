@@ -1,4 +1,4 @@
-package Semester1.Gamle1SemesterEmner.Filer.CheckFileExist;
+package Semester1.Gamle1SemesterEmner.Files.CheckFileExist;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,7 +17,7 @@ Man kan sætte kopi af en file på en nemt måde:
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         //Tjekke om .txt filen ligger i mappen som den her.
-        File f = new File("src/Semester1/Gamle1SemesterEmner/Filer/tekstFile");
+        File f = new File("src/Semester1/Gamle1SemesterEmner/Files/tekstFile");
         System.out.println("exists returns " + f.exists());
         System.out.println("canRead returns " + f.canRead());
         System.out.println("length returns " + f.length());
