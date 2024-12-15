@@ -1,0 +1,11 @@
+1.  Udtrykket "initialization" er at fastsætte noget,
+    som at fastsætte en variabel.
+    Som int number = 0;
+    Så for-loopen begynder med tallet 0.
+
+2.  Udtrykket "condition" er at teste noget, hvis condition er sandt(True),
+    så vil loopet udføre(Execute) loopens krop(Body of the loop)
+    og går til den "updation"-udtrykket.
+    Hvis det er falsk(false), så går vi ud fra kroppen.
+
+3.  Når kroppen er udført, så øges/sænkes udtrykket "updation"

@@ -1,0 +1,23 @@
+Hvad er et Interface?
+
+Et interface i Java er som en kontrakt, der definerer et sæt metoder,
+som en klasse skal implementere.
+Det specificerer, hvad der skal gøres, men ikke hvordan det skal gøres.
+Interfaces bruges til at definere adfærd, som forskellige klasser kan have,
+uden at bekymre sig om den specifikke implementering.
+
+Hvorfor bruge Interfaces?
+
+    Abstraktion: Interfaces giver en måde at definere abstrakte metoder,
+    som kan implementeres af forskellige klasser.
+    Dette hjælper med at skabe en struktur for, hvordan klasser skal opføre sig.
+
+    Løs kobling: Ved at bruge interfaces kan du skrive kode,
+    der er uafhængig af de specifikke implementeringer af de klasser, du arbejder med.
+    Dette gør det lettere at ændre eller udskifte implementeringer uden at ændre koden, der bruger dem.
+
+    Flerarvet adfærd: I Java kan en klasse kun arve fra én superklasse,
+    men den kan implementere flere interfaces.
+    Dette gør det muligt for en klasse at have flere forskellige adfærdsmønstre.
+
+
