@@ -1,10 +1,11 @@
-package Semester1.MainTopic.ArrayList;
+package Semester1.MainTopic.ArrayList.AdditionDeletionSetting;
 
 import java.util.ArrayList;
 
 public class ArrayListClass {
     public static void main(String[] args) {
 
+        //__Addition and Output__________________________________________//
         //ArrayList with int values and the add method and for-each loop//
         // Creating a ArrayList with the int datatype
         ArrayList<Integer> number = new ArrayList<>();
@@ -25,7 +26,7 @@ public class ArrayListClass {
         System.out.println();
         //____________________________________________________________//
 
-        //__Deletion and Set__________________________________________//
+        //__Deletion and Setting__________________________________________//
 
         //ArrayList with String values and the deletion and set methods //
         // Creating a ArrayList with the String datatype
@@ -50,6 +51,9 @@ public class ArrayListClass {
         // Commented code below is one other way to remove:
         // strings.remove("Bob");
         System.out.println("Harry deleted: " + strings);
+
+        //___________________________________________________________________//
+
 
     }
 }
