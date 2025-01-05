@@ -1,0 +1,36 @@
+HASHMAP:
+________________________________________________________________________________________
+ArrayList store items as an ordered collection, has access with index number (int type).
+HashMap uses key/value pairs, which can be accessed by an index of another type.
+Example: Key/value as int/String or String/String or int/int.
+
+One object is used as a key (index) to another object (value).
+It can store different types: String keys and Integer values,
+or the same type, like: String keys and String Values.
+
+The capitalCities class uses String/String as example: "England"/"London".
+The PersonAndAge class uses String/Integer as example: "Søren"/36
+________________________________________________________________________________________
+
+
+HASHSET:
+________________________________________________________________________________________
+A HashSet is a collection of items where every item is unique, and it is found in the java.util package.
+
+
+________________________________________________________________________________________
+
+Different between Map and Set:
+________________________________________________________________________________________
+ADDING: Map uses "put" for adding items while Set uses "add" as ArrayList.
+FINDING ONE ITEM: Map uses "get" for finding one item while Set uses "contains"
+________________________________________________________________________________________
+
+
+
+Common stuffs for both Map and Set.
+________________________________________________________________________________________
+Note: HashMap and HashSet can ONLY have unique Keys. Values can be the same.
+"England"/"London"
+"England"/"Lond"
+This will ONLY saves the last one, which overwrote the first one.

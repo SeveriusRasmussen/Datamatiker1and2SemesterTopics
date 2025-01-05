@@ -14,9 +14,10 @@ public class ArrayListClass {
         names.add("Kathrine");
         names.add("Uffe");
         names.add("Uffe");
+        System.out.println(names);
 
         //__Access One and print out_____________________________//
-        System.out.println(names.get(4)); // Print the Anna which is firth place in the list.
+        System.out.println("Take index 4 to printout: " + names.get(4)); // Print the Anna which is firth place in the list.
         //The list starts from index 0, that's why we get Anna instead of Søren.
 
         //___Add an item at a specified position_________________//
@@ -35,14 +36,12 @@ public class ArrayListClass {
         System.out.println("One Søren removed " + names);
 
         //______Remove all Sørens________________________________//
-        // Stringen man vil fjerne
-        String target = "Søren";
-        //Fjern alle forekomster af target
-        names.removeAll(Arrays.asList(target));
+        //Fjern alle Søren
+        names.removeAll(Arrays.asList("Søren"));
         // Udskriv den opdaterede liste
         System.out.println("All Søren's removed: " + names);
 
         //________See the size of the ArrayList__________________//
-        System.out.println(names.size());
+        System.out.println("Print out number of names: " + names.size());
     }
 }
