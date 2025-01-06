@@ -49,7 +49,7 @@ public class ArrayListClass {
         // Deletion:
         strings.remove(2); // Deleting Harry
         // Commented code below is one other way to remove:
-        // strings.remove("Bob");
+        // strings.remove("Harry");
         System.out.println("Harry deleted: " + strings);
 
         //___________________________________________________________________//

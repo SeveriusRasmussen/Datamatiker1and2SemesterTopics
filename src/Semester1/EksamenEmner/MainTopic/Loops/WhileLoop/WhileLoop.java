@@ -1,4 +1,4 @@
-package Semester1.EksamenEmner.MainTopic.LoopsAndNestedLoops.WhileLoop;
+package Semester1.EksamenEmner.MainTopic.Loops.WhileLoop;
 
 public class WhileLoop {
     public static void main(String[] args) {

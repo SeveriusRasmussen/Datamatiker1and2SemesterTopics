@@ -1,4 +1,4 @@
-package Semester1.EksamenEmner.MainTopic.LoopsAndNestedLoops.SwitchLoop;
+package Semester1.EksamenEmner.MainTopic.Loops.SwitchLoop;
 
 public class SwitchLoop {
     public static void main(String[] args) {

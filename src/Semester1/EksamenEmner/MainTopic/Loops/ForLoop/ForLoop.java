@@ -1,4 +1,4 @@
-package Semester1.EksamenEmner.MainTopic.LoopsAndNestedLoops.ForLoop;
+package Semester1.EksamenEmner.MainTopic.Loops.ForLoop;
 
 public class ForLoop {
     public static void main(String[] args) {

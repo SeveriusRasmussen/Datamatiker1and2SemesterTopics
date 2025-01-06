@@ -25,19 +25,20 @@ public class ArrayListClass {
 
 
         //__One way: print how many unique numbers (Bad example)______//
-        ArrayList<Integer> uniqueNumbers2 = new ArrayList<>();
+        ArrayList<Integer> uniqueNumbers = new ArrayList<>();
         for (Integer number : myNumbers) {
-            if (!uniqueNumbers2.contains(number)) {
-                uniqueNumbers2.add(number);
+            if (!uniqueNumbers.contains(number)) {
+                uniqueNumbers.add(number);
             }
         }
-        System.out.println("ArrayList unique numbers: " + uniqueNumbers2.size());
+        System.out.println("ArrayList unique numbers: " + uniqueNumbers.size());
 
         //__Other way: HashSet method on how many unique numbers (good example)__//
         System.out.println("All numbers: " + myNumbers);
         // Adding the myNumbers list into one HashSet
-        HashSet<Integer> uniqueNumbers = new HashSet<>(myNumbers);
+        HashSet<Integer> uniqueNumbers2 = new HashSet<>(myNumbers);
         // HashSet will ignore any extra number that isn't unique
-        System.out.println("Number of unique numbers: " + uniqueNumbers.size());
+        System.out.println("New list of the numbers with HashSet: " + uniqueNumbers2);
+        System.out.println("Number of unique numbers: " + uniqueNumbers2.size());
     }
 }
