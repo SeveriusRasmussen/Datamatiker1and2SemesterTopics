@@ -1,0 +1,24 @@
+En 'ArrayList' er en resizable array, det kan dynamisk ændre størrelse.
+Det betyder at den automatisk vokser efter behov, når elementer tilføjes eller fjernes.
+I modsat til Arrays, de har faste størrelse, så ville det sige hvis man laver en array med størrelse på 5.
+Ex Array[5].
+så ville det altid være 5 i størrelse.
+
+
+Forskellen mellem Arraylist og Arrays:
+1. Dynamisk størrelse:
+    ArrayList kan blive større eller mindre automatisk.
+    Array kan ikke.
+
+2. Type af elementer:
+    ArrayList kan kun holde objekter medmindre de er wrapped,
+    imens Arrays kan holde både primitive typer og objekter.
+
+3. Metoder:
+    ArrayList har mange metoder til brug, f.eks .add(), .remove(), .contains() etc.
+    Mens Arrays har kun grundlæggende funktioner.
+
+4. Præstation:
+    Arrays har hurtigere adgangstid, da de er simpel indeks-baserede,
+    mens 'ArrayList' kan være langsommere på grund af den dynamiske størrelse
+    og behovet for at opretholde interne strukturer.

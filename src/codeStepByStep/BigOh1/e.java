@@ -26,6 +26,6 @@ public class e {
         Da de ikke er nested, kan vi blot addere deres kompleksiteter.
         Derfor er Big Oh-noteringen for dette eksempel 0(N log N) = O(N + N) = O(2N) = O(N).
 
-         */
+        */
     }
 }
