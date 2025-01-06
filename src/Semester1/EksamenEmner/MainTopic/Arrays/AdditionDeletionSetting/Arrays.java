@@ -33,6 +33,17 @@ public class Arrays {
             System.out.println(i);
         }
 
+        // Array can't extends out for more elements,
+        // you need either a new array or Arraylist for that.
+        int[] oldArray = {1, 2, 3};
+        int[] newArray = new int[oldArray.length + 1];
 
+        for (int i = 0; i < oldArray.length; i++) {
+            newArray[i] = oldArray[i];
+            System.out.println(newArray[i]);
+        }
+        newArray[oldArray.length] = 4; // Tilføj nyt element
+        newArray[3] = 4;
+        System.out.println(newArray[3]);
     }
 }
