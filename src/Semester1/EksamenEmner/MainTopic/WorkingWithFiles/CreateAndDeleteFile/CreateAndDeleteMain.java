@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Scanner;
 // Hvis man vil have switch case kørende, så blot kode:
 // 'boolean running = true;' og 'while (running) {switch case herinde} input.close();'
-public class Main {
+public class CreateAndDeleteMain {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         boolean running = true; // flag for at holde loopet kørende

@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Main {
+public class ReadFromFileMain {
     public static void main(String[] args) {
         try {
             File f = new File("src/Semester1/EksamenEmner/MainTopic/WorkingWithFiles/textFile");

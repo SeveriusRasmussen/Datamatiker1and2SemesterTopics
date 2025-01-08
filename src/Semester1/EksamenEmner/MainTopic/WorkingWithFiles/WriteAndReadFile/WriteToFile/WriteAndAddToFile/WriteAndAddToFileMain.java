@@ -3,7 +3,7 @@ package Semester1.EksamenEmner.MainTopic.WorkingWithFiles.WriteAndReadFile.Write
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Main {
+public class WriteAndAddToFileMain {
     public static void main(String[] args) {
         try {
             // opret FileWriter med append-parameteren sat til true

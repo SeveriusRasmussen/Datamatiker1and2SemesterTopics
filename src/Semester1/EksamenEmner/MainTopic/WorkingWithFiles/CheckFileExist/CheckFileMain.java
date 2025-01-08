@@ -14,7 +14,7 @@ Man kan sætte kopi af en file på en nemt måde:
 
 
  */
-public class Main {
+public class CheckFileMain {
     public static void main(String[] args) throws FileNotFoundException {
         //Tjekke om .txt filen ligger i mappen som den her.
         File f = new File("src/Semester1/EksamenEmner/MainTopic/WorkingWithFiles/textFile");
