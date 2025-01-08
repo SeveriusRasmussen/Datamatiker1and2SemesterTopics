@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             // Opret FileWriter til at overskriv filen. UDEN den booleansk 'True'.
-            FileWriter myWriter = new FileWriter("src/Semester1/Gamle1Semester/Gamle1SemesterEmner/Files/tekstFile");
+            FileWriter myWriter = new FileWriter("src/Semester1/Gamle1Semester/Gamle1SemesterEmner/Files/textFile");
             myWriter.write("file overwrote.\n");
             myWriter.close();
             System.out.println("Successfully wrote to the file");

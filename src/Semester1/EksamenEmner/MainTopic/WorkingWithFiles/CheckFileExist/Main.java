@@ -9,7 +9,7 @@ Man skal have den fuld path til filen for at få adgang, ellers får man error b
 Man kan sætte kopi af en file på en nemt måde:
  -> Kopi path/reference -> Path from Content Root
 
- OBS: Hvis man vil bruge så simpelt som "tekstFile"
+ OBS: Hvis man vil bruge så simpelt som "textFile"
  Så skal filen være i uden for "src"-mappen. Altså ind i projektet's mappen.
 
 
@@ -17,7 +17,7 @@ Man kan sætte kopi af en file på en nemt måde:
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         //Tjekke om .txt filen ligger i mappen som den her.
-        File f = new File("src/Semester1/EksamenEmner/MainTopic/WorkingWithFiles/tekstFile");
+        File f = new File("src/Semester1/EksamenEmner/MainTopic/WorkingWithFiles/textFile");
         System.out.println("exists returns " + f.exists());
         System.out.println("canRead returns " + f.canRead());
         System.out.println("length returns " + f.length());
