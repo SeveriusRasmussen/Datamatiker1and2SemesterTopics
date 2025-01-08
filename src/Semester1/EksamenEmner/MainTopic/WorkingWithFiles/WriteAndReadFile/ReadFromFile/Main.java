@@ -1,4 +1,4 @@
-package Semester1.Gamle1Semester.Gamle1SemesterEmner.Files.WriteAndReadFile.ReadFromFile;
+package Semester1.EksamenEmner.MainTopic.WorkingWithFiles.WriteAndReadFile.ReadFromFile;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         try {
-            File f = new File("src/Semester1/Gamle1SemesterEmner/Files/tekstFile");
+            File f = new File("src/Semester1/EksamenEmner/MainTopic/WorkingWithFiles/tekstFile");
             Scanner myReader = new Scanner(f);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
