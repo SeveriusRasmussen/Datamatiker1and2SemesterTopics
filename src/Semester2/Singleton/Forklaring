@@ -1,0 +1,30 @@
+Hensigt:
+    Singleton sikrer at en klasse har kun ÉN instans og giv et globalt adgangspunkt til den.
+
+Movitation:
+    - Vigtigt for nogle klasser at have præcis én instans. F.eks.,
+    selvom der er mange printere, skal du bare have én printspooler.
+    Man kan jo ikke printe flere papirer på én gang ud fra en printer.
+
+    - Sørg for, at kun én instans er tilgængelig og let tilgængelig
+        - globale variabler giver adgang, men forhindrer dig ikke i at instansiere mange objekter
+
+    - Giv klassen ansvar for at holde styr på dens eneste instans
+
+Kontekst:
+    - Kun én instans af en klasse er skabt.
+    Alt i systemet, der har brug for denne klasse, interagerer med det ene objekt.
+Styring af adgang:
+    - Gør denne instans tilgængelig for alle klienter.
+Løsning:
+    - Klassen har en statisk variabel kaldet theInstance(etc)
+    - Konstruktøren er gjort privat (eller beskyttet)
+    - Klienter kalder en offentlig operation getInstance(), der returnerer den ene instans
+        - Dette kan konstruere instansen allerførste gang eller få en initialisering
+
+
+Konsekvenser for at bruge Singleton:
+    - Bruges kun hvis der skal have PRÆCIS én instans af en klasse,
+    og det skal være accessible for klienter fra en velkendt Access Point.
+    - Når den eneste instans skal udvides ved underklassificering,
+    og klienter skal kunne bruge en udvidet instans uden at ændre deres kode.

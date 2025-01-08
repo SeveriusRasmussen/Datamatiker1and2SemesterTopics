@@ -1,0 +1,32 @@
+Collection-interfacet_____________________
+Collection-interfacet metoder er disse man bruge til ArrayList eller Hash-Map/Set.
+(Jeg bruger "listen" istedet for "Samling" da det giver bedre mening)
+F.eks
+    boolean add(Objekt o) - bruges til at tilføj noget til listen
+    boolean remove(Objekt o) - bruges til at slette noget fra listen
+    boolean contains(Object o) - bruges til at tjekke om et element findes i listen
+    int size() - returnerer antallet af elementer i listen
+    void clear() - fjerner alt elementer fra listen
+    boolean isEmpty() - tjekker om listen er tom
+    Iterator<E> iterator() - Returnerer en iterator over elementerne i listen
+
+Collection-Klassen___________________________________
+Disse er ikke del af Collection-interfacet, men af collection-utility-klassen og er værd at vide.
+Fordi Lister som Set og Queue, har ikke en naturlig rækkefølge,
+og det giver derfor ikke mening at anvende en sorteringsmetode (.sort) på dem
+
+(Alle er static type, og <T> er)
+F.eks
+    <T> void .sort() - bruges til at sorterer en list.
+    // "Collections.sort(myNumbers);" Som set i ArrayList mappen -> CollectionsAndUniqueNumber mappen -> ArrayListClass
+
+    void .shuffle() - bruges til bland listen.
+    <T> void .reverse() - bruges til at vender rækkefølgen af elementerne i den angivne list
+    <T> void .swap() - bruges til at bytte to elementer om i deres index plads.
+    // Disse tre overstående metoder kan findes i ArrayList mappen -> Fruits mappen -> Main klassen
+
+    <T> T max(Collection<? extends T> coll) - Returnerer det største element i den angivne list i naturlig rækkefølge.
+    <T> T min(Collection<? extends T> coll) - Returnerer det mindste element i den angivne list i naturlig rækkefølge.
+    <T> T max(Collection<? extends T> coll, Comparator<? super T> comp) - Returnerer det største element i den angivne list ved hjælp af den angivne comparator
+    <T> T min(Collection<? extends T> coll, Comparator<? super T> comp) - Returnerer det mindste element i den angivne list ved hjælp af den angivne comparator
+    // Disse Max/Min og med comparator kan findes i CollectionMethod mappe -> MaxMinAndCompare mappe -> MainMaxMinComparable

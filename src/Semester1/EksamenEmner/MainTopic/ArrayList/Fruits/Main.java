@@ -1,6 +1,9 @@
 package Semester1.EksamenEmner.MainTopic.ArrayList.Fruits;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
@@ -101,5 +104,26 @@ public class Main {
         for (String item : combinedList) {
             System.out.println(item);
         }
+
+        // Bare info om iteratoren til at gennemløbe listen (Ligesom for-loop)
+        System.out.println("\nIteration of Fruits:");
+        Iterator<Fruit> iterator = fruits.iterator();
+        while (iterator.hasNext()) {
+            Fruit fruit = iterator.next();
+            System.out.println(fruit);
+        }
+
+        // Shuffles the list
+        System.out.println(fruits);
+        Collections.shuffle(fruits);
+        System.out.println(fruits);
+
+        // Reverse the list after the shuffle
+        Collections.reverse(fruits);
+        System.out.println(fruits);
+
+        // Swap two fruit
+        Collections.swap(fruits, 1, 2);
+        System.out.println(fruits);
     }
 }
