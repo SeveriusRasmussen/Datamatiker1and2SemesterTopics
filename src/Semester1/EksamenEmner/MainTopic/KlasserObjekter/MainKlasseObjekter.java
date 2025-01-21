@@ -10,5 +10,8 @@ public class MainKlasseObjekter {
         System.out.println(newPerson2);
 
         System.out.println(newPerson2.getName() + " er ret glad for " + newPerson.getName() + ", derfor er de gift");
+
+        newPerson.setAge(37);
+        System.out.println("" + newPerson.getAge());
     }
 }
