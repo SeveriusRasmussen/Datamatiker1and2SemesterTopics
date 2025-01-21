@@ -18,9 +18,9 @@ public class PolyMorphism {
         System.out.println(Helper.Multiply(2, 4));
         System.out.println(Helper.Multiply(5.5, 6.3));
 
-        // This way you can calculate the numbers whatever that is INT or DOUBLE.
-        // Notice there is method with same name?
-        // Because there are TWO Methods in the Helper class, one for INT and one for DOUBLE.
-        // Isn't that smart?!
+        /* This way you can calculate the numbers whatever that is INT or DOUBLE.
+         Notice there is method with same name?
+         Because there are TWO Methods in the Helper class, one for INT and one for DOUBLE.
+         Isn't that smart?! */
     }
 }

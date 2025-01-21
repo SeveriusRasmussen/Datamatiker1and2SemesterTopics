@@ -1,12 +1,10 @@
 package Semester1.EksamenEmner.MainTopic.interfacePolymorphism.Interface.Animal;
 
 public class Cat implements Animal {
-    @Override
     public void makeSound() {
         System.out.println("Meow");
     }
 
-    @Override
     public void eat() {
         System.out.println("Cat is eating");
     }
