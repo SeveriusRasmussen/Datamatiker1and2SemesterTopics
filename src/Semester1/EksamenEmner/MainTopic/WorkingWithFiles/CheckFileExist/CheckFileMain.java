@@ -21,13 +21,13 @@ public class CheckFileMain {
         System.out.println("exists returns " + f.exists());
         System.out.println("canRead returns " + f.canRead());
         System.out.println("length returns " + f.length());
-        System.out.println("getAbsolutePath returns " + f.getAbsolutePath() + "\n");
+        System.out.println("Absolute Path: " + f.getAbsolutePath() + "\n");
 
-        //Hvis man vil have den simpelt måde. Så sæt tekstFile2 i src mappe:
+        //Hvis man vil have den simpelt måde. Så sæt tekstFile2 i src mappe som er default for file finding:
         File f2 = new File("tekstFile2");
         System.out.println("exists returns " + f2.exists());
         System.out.println("canRead returns " + f2.canRead());
         System.out.println("length returns " + f2.length());
-        System.out.println("getAbsolutePath returns " + f2.getAbsolutePath());
+        System.out.println("Absolute Path: " + f2.getAbsolutePath());
     }
 }
