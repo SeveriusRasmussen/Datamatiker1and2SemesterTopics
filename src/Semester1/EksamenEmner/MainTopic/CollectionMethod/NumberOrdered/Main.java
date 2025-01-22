@@ -2,6 +2,7 @@ package Semester1.EksamenEmner.MainTopic.CollectionMethod.NumberOrdered;
 
 public class Main {
     public static void main(String[] args) {
+        // Opret objekt af klassen NumberList
         NumberList myNumList = new NumberList();
         myNumList.printNumbers(); // Udskriver de oprindelige tal
 

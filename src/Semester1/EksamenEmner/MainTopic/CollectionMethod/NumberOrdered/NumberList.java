@@ -10,6 +10,7 @@ public class NumberList implements Comparable<NumberList> {
 
     private List<Integer> numbers;
 
+    // Når man oprette et objekt, så sætter der nye numrer i listen vha. metoden initializeNumbers
     public NumberList() {
         numbers = new ArrayList<>();
         initializeNumbers();
