@@ -13,18 +13,19 @@ public class DateMain {
         // Show the current time
         System.out.println(LocalTime.now());
 
-        // Show both
+        // Show both and use one object to print out
         LocalDateTime DateTime = LocalDateTime.now();
         System.out.println(DateTime);
         // Showing both is ugly to look at.
 
         //Then this is better formatted
         System.out.println(DateTime.format(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss")));
-        // The format is ugly aswell then this is better
+        // But the above code is ugly and a bit hard to read then the below code is better using a DateTimeFormatter class.
         DateTimeFormatter DateTimeFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-        System.out.println(DateTime.format(DateTimeFormat));
+        String dateAndTime = DateTime.format(DateTimeFormat);
+        System.out.println(dateAndTime); // See the text in the parentheses, simpely text right?
 
-        /* The ofPattern methods:
+        /* The ofPattern() methods:
         yyyy-MM-dd = "1998-09-29"
         dd/MM/yyyy = "29/09/1998"
         dd-MMM-yyyy = "29-Sep-1998"
